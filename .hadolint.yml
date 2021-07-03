@@ -1,0 +1,14 @@
+ignored:
+  - DL3018
+  - SC1010
+trustedRegistries:
+  - docker.io
+override:
+  error:
+    - DL3001
+  warning:
+    - DL3059
+  info:
+    - DL3018
+  style:
+    - DL3002
