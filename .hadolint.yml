@@ -1,6 +1,5 @@
 ignored:
   - DL3018
-  - SC1010
 trustedRegistries:
   - docker.io
 override:
@@ -9,6 +8,6 @@ override:
   warning:
     - DL3059
   info:
-    - DL3018
+    - DL3060
   style:
     - DL3002
