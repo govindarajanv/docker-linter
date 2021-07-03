@@ -1,7 +1,7 @@
  # syntax=docker/dockerfile:1
- FROM node:12-alpine
+ FROM node:12-alpines
  RUN apk add --no-cache python g++ make
- WORKDIR /app-invalid
+ WORKDIR /app
  COPY . .
  RUN yarn install --production
  CMD ["node", "src/index.js"]
