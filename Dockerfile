@@ -4,4 +4,5 @@
  WORKDIR /app
  COPY . .
  RUN yarn install --production
+ RUN yarn cache clean
  CMD ["node", "src/index.js"]
