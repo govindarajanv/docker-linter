@@ -12,3 +12,6 @@ jobs:
         target: Dockerfile
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: hadolint/hadolint-action@v1.5.0
+      with:
+        dockerfile: Dockerfile
